@@ -13,7 +13,7 @@ import { Component } from "@angular/core";
 export class ContadorComponent {
     title: string = 'Contador App';
     numero: number = 0;
-    base: number = 10;
+    base: number = 20;
     acumulador (valor: number) {
         this.numero += valor;
     }
